@@ -25,7 +25,7 @@
 ---
 |
 |
- T1566.001
+T1566.001
 |
 Spearphishing Attachment
 |
