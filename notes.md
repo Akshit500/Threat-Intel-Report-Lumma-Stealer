@@ -88,3 +88,6 @@ Lumma Stealer has gained initial execution through victims opening malicious exe
 
 Enterprise	T1497	.001	Virtualization/Sandbox Evasion: System Checks	
 Lumma Stealer has queried system resources on the victim device to identify if it is executing in a sandbox or virtualized environments, checking usernames, conducting WMI queries for system details, checking for files commonly found in virtualized environments, searching system services, and inspecting process names.[4] Lumma Stealer has checked system GPU configurations for sandbox detection
+
+
+## MITIGATION
