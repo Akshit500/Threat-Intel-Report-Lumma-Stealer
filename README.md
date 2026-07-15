@@ -1,1 +1,1 @@
-# threat-intel-report-lumma-stealer
+# Threat-Intel-Report-Lumma-Stealer
