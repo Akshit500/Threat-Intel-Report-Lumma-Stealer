@@ -13,16 +13,12 @@
 |    Technique ID    |     Name    |    Tactic     |
 |--------------------|-------------|---------------|
 | T1071	.001	| Application Layer Protocol: Web Protocols| Lumma Stealer has used HTTP and HTTP for command and control communication|
----
-|T1119	|Automated Collection	|Lumma Stealer has automated collection of various information including cryptocurrency wallet details.
----
-T1547	.001	|Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder	|Lumma Stealer has created registry keys to maintain persistence using HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Run.
----
+|T1119	|Automated Collection	|Lumma Stealer has automated collection of various information including cryptocurrency wallet details.|
+|T1547	.001	|Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder	|Lumma Stealer has created registry keys to maintain persistence using HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Run.|
 |T1217	|Browser Information Discovery	
-|Lumma Stealer has identified and gathered information from two-factor authentication extensions for multiple browsers.
----
+|Lumma Stealer has identified and gathered information from two-factor authentication extensions for multiple browsers.|
 |T1059	.001	|Command and Scripting Interpreter: PowerShell	
-|Lumma Stealer has used PowerShell for initial user execution and other fuctions.
+|Lumma Stealer has used PowerShell for initial user execution and other fuctions.|
 ---
 .006	Command and Scripting Interpreter: Python	
 Lumma Stealer has used malicious Python scripts to execute payloads.[1]
